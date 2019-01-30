@@ -125,9 +125,7 @@ subplot(2, 2, 4);
 imshow(img);
 hold on
 imshow(label2rgb(l, @jet, [.5 .5 .5]))  
-title('\fontsize{16}Top3 largest regions'); 
-hold on
-suptitle('\fontsize{20}\color{red}Comparison');
+title('\fontsize{16}\color{red}Top3 largest regions'); 
 
 for k = 1: length(b)
     bound = b{k}; 
